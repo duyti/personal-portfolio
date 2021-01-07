@@ -1,0 +1,169 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  position: relative;
+  height: 6rem;
+}
+nav ul {
+  list-style: none;
+  position: absolute;
+  top: 1.5em;
+  right: 10em;
+}
+ul li {
+  display: inline-block;
+  padding: 20px 30px;
+}
+.nav_link {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.nav_link:hover {
+  color: #ff8367;
+}
+#about {
+  height: 500px;
+  padding-bottom: 320px;
+  padding-top: 50px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.half_container {
+  width: 35%;
+  float: left;
+  margin-right: 10%;
+  padding-left: 5%;
+}
+h1 {
+  color: #363958;
+  font-size: 3.2em;
+  margin-bottom: 0;
+}
+span {
+  color: #ff8367;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.half_container p {
+  margin-bottom: 2.5em;
+}
+h2 {
+  color: #363958;
+  font-size: 2em;
+}
+.half_container img {
+  margin-top: 3em;
+}
+.link_button {
+  text-decoration: none;
+  background-image: linear-gradient(180deg, #f46060, #fb7562);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.link_button:hover {
+  color: #2e2e2e;
+  background: #f46060;
+}
+
+img {
+  width: 100%;
+}
+#work {
+  height: 300px;
+  padding-bottom: 320px;
+  padding-top: 70px;
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #f8f9fc;
+}
+#work h2 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.projects {
+  background-color: white;
+  padding: 15px;
+  height: 320px;
+  float: left;
+  width: 26%;
+  margin: 2%;
+  border-radius: 20px;
+}
+.projects:hover {
+  box-shadow: 10px 10px 30px gray;
+  cursor: pointer;
+}
+.projects h3 {
+  color: #363958;
+}
+.slide {
+  width: 100%;
+  text-align: center;
+}
+.slide a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #ff8367;
+  color: #cccccc;
+  border-radius: 50%;
+}
+.slide a:hover {
+  background-color: #cccccc;
+  color: #2e2e2e;
+  cursor: pointer;
+}
+
+#contact {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.inquiry {
+  background-image: url(images/Group_33094_1.png);
+  background-size: cover;
+  padding: 20px;
+  width: 70%;
+  height: 150px;
+  margin: 10em;
+  border-radius: 20px;
+}
+.inquiry h2 {
+  color: white;
+  float: left;
+  font-size: 2.5em;
+  padding-top: 20px;
+  margin-left: 6%;
+}
+.inquiry a {
+  float: right;
+  margin-top: 50px;
+  margin-right: 5%;
+}
+.address {
+  text-align: center;
+}
+.address h3 {
+  color: #a0a0a0;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+.address h2 {
+  margin-top: 0.5em;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.address img {
+  width: 40px;
+  padding-left: 2%;
+  margin-top: -25px;
+}
+footer {
+  height: 50px;
+}
