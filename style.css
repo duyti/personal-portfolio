@@ -181,5 +181,8 @@ footer {
   float: left;
   width: 40%;
   margin: 3%;
-  border-radius: 20px;
+  border-radius: 5px;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(180deg, black, gray);
+  border-image-slice: 1;
 }
